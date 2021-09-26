@@ -2,14 +2,7 @@
 
 $weapons = ['fists', 'whip', 'gun'];
 $opponentWeapon = $weapons[rand(0,2)]; // Cela permet de choisir une arme de manière aléatoire.
-if ($weapons[rand(0,2)]) == $weapons[2] {
-    echo 'fists'>'gun'> 'whip';
-} else if ($weapons[rand(0,2)] == $weapons[0]){
-    echo 'gun'>'fists'>'whip';
-} else ($weapons[rand(0,2)] == $weapons[1]){
-    echo 'fists'>'whip'>'gun';
-}
-
+i
 
 echo $opponentWeapon;
 
